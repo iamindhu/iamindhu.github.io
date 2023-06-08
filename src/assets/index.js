@@ -35,6 +35,7 @@ import tripguide from "./tripguide.png";
 import paper from "./paper.png";
 import sr from "./sr.png"
 import agedet from "./agedet.png";
+import expense from "./expense.png";
 
 export {
   logo,
@@ -68,4 +69,5 @@ export {
   paper,
   sr,
   agedet,
+  expense,
 };

@@ -26,6 +26,7 @@ import {
   paper,
   sr,
   agedet,
+  expense,
 } from "../assets";
 
 export const navLinks = [
@@ -278,7 +279,7 @@ const projects = [
           color: "pink-text-gradient",
         },
       ],
-      image: agedet,
+      image: expense,
      source_code_link: "https://github.com/iamindhu/Expense-Tracker",
   },
 ];
