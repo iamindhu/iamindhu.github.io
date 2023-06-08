@@ -32,6 +32,9 @@ import mic from "./company/mic.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import paper from "./paper.png";
+import sr from "./sr.png"
+import agedet from "./agedet.png";
 
 export {
   logo,
@@ -62,4 +65,7 @@ export {
   as,
   python,
   mysql,
+  paper,
+  sr,
+  agedet,
 };
