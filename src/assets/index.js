@@ -32,10 +32,13 @@ import mic from "./company/mic.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
 import paper from "./paper.png";
 import sr from "./sr.png"
 import agedet from "./agedet.png";
 import expense from "./expense.png";
+import ipo from "./ipo.png";
+import pass from "./pass.png";
 
 export {
   logo,
@@ -70,4 +73,6 @@ export {
   sr,
   agedet,
   expense,
+  ipo,
+  pass,
 };

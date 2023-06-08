@@ -23,10 +23,13 @@ import {
   mysql,
   as,
   python,
+
   paper,
   sr,
   agedet,
   expense,
+  ipo,
+  pass,
 } from "../assets";
 
 export const navLinks = [
@@ -153,33 +156,6 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
     name: "Predicting Survival of People with Heart Failure", 
@@ -201,6 +177,27 @@ const projects = [
     ],
     image: paper,
     source_code_link: "https://github.com/iamindhu/predicting-survival-of-heart-patients",
+  },
+  {
+    name: "IPO Management System",
+    description:
+      "Built an IPO management platform. Companies would be able to release the details for their IPO & interested parties would be able to bid on it. After the listing price is finalized, selected bidders qualify for the next investment. A lucky draw takes place for allocating the shares to the shareholders. Different brokerage firms can use the microservices built by us for allowing other users to place bids for IPO.",
+    tags: [
+      {
+        name: "mysql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Maven",
+        color: "green-text-gradient",
+      },
+      {
+        name: "microservices",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ipo,
+    source_code_link: "https://github.com/devender22/educare_ipo_ms",
   },
   {
     name: "Voice Based Email",
@@ -241,7 +238,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: pass,
     source_code_link: "https://github.com/iamindhu/password-manager",
   },
   {
@@ -284,4 +281,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
