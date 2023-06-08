@@ -10,7 +10,7 @@ import Contact from './Contact';
 
 export {
   Hero,
-  Navbar,
+  Navbar, 
   About,
   Tech,
   Experience,
