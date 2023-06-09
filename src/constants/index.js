@@ -11,9 +11,6 @@ import {
   mongodb,
   git,
   c,
-  carrent,
-  jobit,
-  tripguide,
   deshaw,
   mic,
   devops,
@@ -23,7 +20,6 @@ import {
   mysql,
   as,
   python,
-
   paper,
   sr,
   agedet,
